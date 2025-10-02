@@ -1,0 +1,142 @@
+  body {
+      background-color: whitesmoke;
+      background-size: cover;
+      background-repeat: repeat;
+      background-position: center;
+      width: 100%;
+      padding: 0;
+      font-family: arial, sans-serif;
+      display: flex;
+      margin: 0;
+  }
+  
+  header {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #666;
+      padding: 15px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+      gap: 20px;
+  }
+  
+  header a {
+      color: white;
+      padding: 10px 15px;
+      text-decoration: none;
+      font-weight: bold;
+  }
+  
+  header a:hover {
+      background-color: #666;
+      border-radius: 5px;
+      text-decoration: underline;
+  }
+  
+  main {
+      display: flex;
+      margin-top: 110px;
+      padding: 20px;
+  }
+  
+  .profile {
+      width: 150px;
+      height: 150px;
+      border-radius: 20px;
+      object-fit: cover;
+      text-align: end;
+      display: flex;
+  }
+  
+  h1 {
+      color: crimson;
+      background-color: #4568;
+      padding: 10px;
+      background-size: cover;
+      text-align: center;
+      text-decoration: dashed;
+      display: flex;
+  }
+  
+  h4 {
+      color: blue;
+  }
+  
+  footer {
+      text-align: center;
+      padding: 20px;
+      display: flex;
+      color: blueviolet;
+  }
+  
+  .footer-container {
+      max-width: 800px;
+      margin: auto;
+      display: flex;
+      color: beige;
+  }
+  
+  .social-links {
+      margin-top: 10px;
+      display: flex;
+  }
+  
+  .social-links a {
+      margin: 0 10px;
+      font-size: 24px;
+      display: flex;
+      color: brown;
+  }
+  
+  .social-links a:hover {
+      display: flex;
+      color: aqua;
+  }
+  
+  img {
+      width: 70px;
+      height: 70px;
+      border-radius: 12px;
+      object-fit: cover;
+      text-align: center;
+      place-items: center;
+      border-radius: 50%;
+      color: white;
+  }
+  
+  .personality {
+      gap: 20px;
+      display: block;
+  }
+  
+  video {
+      animation-play-state: running;
+      width: 50%;
+      height: 40%;
+      text-align: center;
+      display: flex;
+  }
+  
+  table {
+      width: 100px;
+      border-collapse: collapse;
+      text-align: center;
+  }
+  
+  th {
+      background-color: green;
+  }
+  
+  section {
+      scroll-behavior: smooth;
+  }
+  
+  ul {
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+  }
